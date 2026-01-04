@@ -1,19 +1,11 @@
 ========================================
-1. Varianten und Ursprung
-========================================
-
-2002  Bas Meijer
-2016  Arnold Schiller
-2026  Timo Schaffert
-
-========================================
-2. Lizenz
+1. Lizenz
 ========================================
 
 Copyright (C) 2026
-Bas Meijer
-Arnold Schiller
-Timo Schaffert
+(2002) Bas Meijer
+(2016) Arnold Schiller
+(2026) Timo Schaffert
 
 Dieses Programm ist freie Software: Sie können es unter den Bedingungen
 der GNU General Public License, wie von der Free Software Foundation
@@ -30,7 +22,7 @@ diesem Programm erhalten haben. Falls nicht, siehe:
 https://www.gnu.org/licenses/
 
 ========================================
-3. Allgemeines
+2. Allgemeines
 ========================================
 
 `ldapcheck` ist ein externer Passwort-Authenticator für **INN / nnrpd**,
@@ -45,7 +37,7 @@ insbesondere ein eigenständiger Debug-Modus sowie Unterstützung
 verschiedener LDAP-Verbindungs- und Verschlüsselungsmodi.
 
 ========================================
-4. Verbindung und Verschlüsselung
+3. Verbindung und Verschlüsselung
 ========================================
 
 Die Art der LDAP-Verbindung wird über den Parameter `-s` gesteuert.
@@ -70,7 +62,7 @@ Bei ungültigen oder nicht vertrauenswürdigen Zertifikaten schlägt die
 Verbindung fehl.
 
 ========================================
-5. Einbindung in INN2 (readers.conf)
+4. Einbindung in INN2 (readers.conf)
 ========================================
 
 Beispielkonfiguration für die Datei `readers.conf`:
@@ -89,7 +81,7 @@ access "opennewsldap" {
 }
 
 ========================================
-6. Abhängigkeiten und Kompilierung
+5. Abhängigkeiten und Kompilierung
 ========================================
 
 Benötigte Pakete unter Debian 13 (trixie):
@@ -117,7 +109,7 @@ chmod 755 ldapcheck
 chown root:news ldapcheck
 
 ========================================
-7. Debug-Modus
+6. Debug-Modus
 ========================================
 
 Der Debug-Modus wird über den Parameter `-d` aktiviert.
@@ -148,7 +140,7 @@ onn_ldapcheck[12345]: using LDAP + StartTLS
 onn_ldapcheck[12345]: authentication SUCCESS for user@example.org
 
 ========================================
-8. GPL-Erweiterung / Offenlegungspflicht
+7. GPL-Erweiterung / Offenlegungspflicht
 ========================================
 
 Alle weitergegebenen Kopien dieses Programms – unabhängig davon, ob sie
