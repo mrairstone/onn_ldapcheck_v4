@@ -48,7 +48,7 @@ static const char *build_ldap_uri(const char *arg, int *mode)
         return arg;
     }
 
-    /* nur Hostname ? unverschlüsseltes LDAP */
+    /* nur Hostname → unverschlüsseltes LDAP */
     snprintf(uri, sizeof(uri), "ldap://%s", arg);
     return uri;
 }
